@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual piano</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b59b6d5745.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Piano lesson <span class ="last-title-peace">one</span>
+        </h1>
+    </header>
+    <main>
+        <section>
+            <ul>
+                <li><i class="fab fa-itunes-note"></i>Choose a random key<i class="fas fa-arrow-down"></i></li>
+            </ul>
+            <div class="content">
+                <div class="piano-roll">
+                    <article class="black">
+                        <button class="key black" id="do-sharp"></button>
+                        <button class="key black" id="re-sharp"></button>
+                        <button class="key black" id="fa-sharp"></button>
+                        <button class="key black" id="sol-sharp"></button>
+                        <button class="key black" id="la-sharp"></button>
+                    </article>
+                    <article class="white">
+                        <button class="key white" id="do"></button>
+                        <button class="key white" id="re"></button>
+                        <button class="key white" id="mi"></button>
+                        <button class="key white" id="fa"></button>
+                        <button class="key white" id="sol"></button>
+                        <button class="key white" id="la"></button>
+                        <button class="key white" id="si"></button>
+                    </article>
+                </div>
+                <div class="tone-explain">
+                    <span class="note-name">note name:</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
